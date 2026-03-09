@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import MovieCard from './MovieCard'; // Importing our component
 import './App.css';
 
@@ -25,7 +25,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1>Movie Search Tool</h1>
+      <h1>Movie Search App</h1>
 
       <div className="search">
         <input
